@@ -223,11 +223,14 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 """" Display
-if has("gui_running")
-    colorscheme solarized
-else
-    colorscheme torte
-endif
+"if has("gui_running")
+"    colorscheme solarized
+"else
+"    colorscheme torte
+"endif
+
+colorscheme wombat
+
 
 " Paste from clipboard
 map <leader>p "+gP
@@ -237,6 +240,9 @@ nnoremap <leader>q :q<CR>
 "
 " hide matches on <leader>space
 nnoremap <leader><space> :nohlsearch<cr>
+
+" Custom Buffer Control
+nnoremap <F5> :buffers<CR>:buffer<Space>
 
 " Remove trailing whitespace on <leader>S
 nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
