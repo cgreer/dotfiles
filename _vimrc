@@ -152,7 +152,7 @@ nnoremap <leader>. :lcd %:p:h<CR>
 
 " Disable the colorcolumn when switching modes.  Make sure this is the
 " first autocmd for the filetype here
-autocmd FileType * setlocal colorcolumn=0
+" autocmd FileType * setlocal colorcolumn=0 "This has Error for me (C Greer)
 
 """ Insert completion
 " don't select first item, follow typing in autocomplete
@@ -165,8 +165,8 @@ set pumheight=6             " Keep a small completion window
 endif
 
 """ Moving Around/Editing
-set cursorline              " have a line indicate the cursor location
-set ruler                   " show the cursor position all the time
+" set cursorline              " have a line indicate the cursor location
+" set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
 set scrolloff=3             " Keep 3 context lines above and below the cursor
@@ -213,7 +213,7 @@ set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
 " displays tabs with :set list & displays when a line runs off-screen
 set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
-set list
+set nolist
 
 """ Searching and Patterns
 set ignorecase              " Default to using case insensitive searches,
