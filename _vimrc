@@ -86,6 +86,9 @@ nmap <silent><Leader>te <Esc>:Pytest error<CR>
 " Run django tests
 map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 
+" Map lTab to next buffer 
+map <leader><TAB> :bn<CR>
+
 " ,v brings up my .vimrc
 " ,V reloads it -- making all changes active (have to save first)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
@@ -128,6 +131,12 @@ map <leader>r :RopeRename<CR>
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
 " Load pathogen with docs for all plugins
+
+"Disable things if vim wasnt compiled with python support
+let g:pathogen_disabled = []
+call add(g:pathogen_disabled, 'pyflakes')
+
+
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -156,9 +165,6 @@ set grepprg=ack-grep          " replace the default grep program with ack
 " Set working directory
 nnoremap <leader>. :lcd %:p:h<CR>
 
-" Disable the colorcolumn when switching modes.  Make sure this is the
-" first autocmd for the filetype here
-" autocmd FileType * setlocal colorcolumn=0 "This has Error for me (C Greer)
 
 """ Insert completion
 " don't select first item, follow typing in autocomplete
@@ -224,14 +230,14 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 """" Display
-"if has("gui_running")
+" if has("gui_running")
 "    colorscheme solarized
-"else
+" else
 "    colorscheme torte
 "endif
 
-colorscheme wombat
-
+" colorscheme wombat
+colorscheme blackboard
 
 " Paste from clipboard
 map <leader>p "+gP

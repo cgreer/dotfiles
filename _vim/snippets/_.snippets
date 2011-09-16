@@ -1,0 +1,62 @@
+# Global snippets
+
+# (c) holds no legal value ;)
+snippet c)
+	`&enc[:2] == "utf" ? "©" : "(c)"` Copyright `strftime("%Y")` ${1:`g:snips_author`}. All Rights Reserved.${2}
+snippet date
+	`strftime("%Y-%m-%d")`
+snippet parseFile
+	f = open(${1:fN}, 'r')
+	for line in f:
+		ls = line.strip().split('\t')
+		${2:}
+snippet appendDict
+	${1:dict}.setdefault(${2:key}, []).append(${3:value})
+snippet uniqueAppendDict
+	if ${1:val} not in ${2:dict}.setdefault(${3:key}, []): ${4:dic}.append(${5:value})
+snippet ifscript
+	if __name__ == "__main__":
+		import sys
+		bioLibCG.submitArgs(${1:fxn}, sys.argv)
+snippet sscript
+	import bioLibCG
+	import cgNexusFlat
+	from cgAutoCast import autocast
+
+	def ${1:name}(${2:fN}):
+		${3:}
+	
+	if __name__ == "__main__":
+		import sys
+		if sys.argv[1] == "help":
+			bioLibCG.gd(sys.argv[0])
+		else:
+			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
+snippet load
+	${1:DC} = cgNexusFlat.Nexus(${2:fN}, ${3:className})
+	${4:DC}.Fload([''], [rn, tn])
+snippet save
+	${1:DC}.save()
+snippet dp
+	print '@ ${1:txt}'
+snippet pFxn
+	def ${1:fxn}(${2:fN}, rn = None, tn = None):
+		
+		${3:DC} = cgNexusFlat.Nexus(${4:fN}, ${5:className})
+		${6:DC}.load([''], [rn, tn])
+
+
+		
+		${7:DC}.save()
+
+# for shortcut files or text files in general
+snippet categ
+	##################################
+	## ${1:title}
+	#################################
+snippet subcateg
+	[---${1:title}---]
+snippet note
+	(Note: ${1:note} )
+snippet dir
+	(Dir: ${1:dir} )
