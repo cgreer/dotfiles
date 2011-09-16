@@ -62,6 +62,12 @@ command! W :w
 " sudo write this
 cmap W! w !sudo tee % >/dev/null
 
+" my custom fxns for editing history files
+"
+" This replaces all cd and ll lines, and then merges lines with more than one
+" \n into one.  I don't know why I have to use three \n for the second part.
+" the | allows for two commands to be ran at once.
+command FoldHist %s/\nll .*\n\|\ncd .*\n\|ll\n//g | %s/.\n\n\n*//g
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
