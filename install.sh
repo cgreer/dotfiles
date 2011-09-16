@@ -32,5 +32,8 @@ git submodule foreach git submodule update
 # setup command-t
 
 #Dont care for command t
-#cd _vim/bundle/command-t
-#rake make
+cd _vim/bundle/command-t
+rake make
+
+#Note, cygwin and cassini don't have certificates sooo
+#export GIT_SSL_NO_VERIFY=true
