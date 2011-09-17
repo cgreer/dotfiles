@@ -67,7 +67,7 @@ cmap W! w !sudo tee % >/dev/null
 " This replaces all cd and ll lines, and then merges lines with more than one
 " \n into one.  I don't know why I have to use three \n for the second part.
 " the | allows for two commands to be ran at once.
-command FoldHist %s/\nll .*\n\|\ncd .*\n\|ll\n//g | %s/.\n\n\n*//g
+" command FoldHist %s/\nll .*\n\|\ncd .*\n\|ll\n//g | %s/.\n\n\n*//g
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
@@ -89,14 +89,21 @@ map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 " Map lTab to next buffer 
 map <leader><TAB> :bn<CR>
 
+" Map lnn to toggle lines off
+nmap <leader>nn :set nonumber<CR>
+
+"Map lc to comment out ind lines
+map <leader>cc <plug>NERDCommenterInvert<CR>
+map <leader>c <plug>NERDCommenterToggle<CR>
+
 " ,v brings up my .vimrc
 " ,V reloads it -- making all changes active (have to save first)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
 
 " open/close the quickfix window
-nmap <leader>c :copen<CR>
-nmap <leader>cc :cclose<CR>
+" nmap <leader>c :copen<CR>
+" nmap <leader>cc :cclose<CR>
 
 " for when we forget to use sudo to open/edit a file
 cmap w!! w !sudo tee % >/dev/null
@@ -179,7 +186,7 @@ set virtualedit=block       " Let cursor move past the last char in <C-v> mode
 set scrolloff=3             " Keep 3 context lines above and below the cursor
 set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
 set showmatch               " Briefly jump to a paren once it's balanced
-set nowrap                  " don't wrap text
+set wrap                  " don't wrap text
 set linebreak               " don't wrap textin the middle of a word
 set autoindent              " always set autoindenting on
 set smartindent             " use smart indent if there is no indent file
@@ -255,7 +262,7 @@ nnoremap <F5> :buffers<CR>:buffer<Space>
 nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Select the item in the list with enter
-"inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " ==========================================================
 " Javascript
