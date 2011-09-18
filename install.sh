@@ -13,6 +13,7 @@ function link_file {
 if [ "$1" = "vim" ]; then
     for i in _vim*
     do
+        echo linking $i
        link_file $i
     done
 else
@@ -22,18 +23,25 @@ else
     done
 fi
 
+echo "first sync"
 git submodule sync
+echo "first init"
 git submodule init
+echo "first update"
 git submodule update
+
+echo "pull for each"
 git submodule foreach git pull origin master
+echo "init for each"
 git submodule foreach git submodule init
+echo "update for each"
 git submodule foreach git submodule update
 
 # setup command-t
 
 #Dont care for command t
-cd _vim/bundle/command-t
-rake make
+#cd _vim/bundle/command-t
+#rake make
 
 #Note, cygwin and cassini don't have certificates sooo
 #export GIT_SSL_NO_VERIFY=true
