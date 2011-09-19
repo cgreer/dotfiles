@@ -42,7 +42,7 @@
 	url = https://github.com/vim-scripts/TaskList.vim.git
 [submodule "_vim/bundle/functionlist.vim"]
 	path = _vim/bundle/functionlist.vim 
-	url = https://github.com/sequeneGeek/functionlist.vim.git
+	url = https://github.com/sequenceGeek/functionlist.vim.git
 [submodule "_vim/bundle/nerdtree"]
 	path = _vim/bundle/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
