@@ -97,7 +97,10 @@ map <leader>cc <plug>NERDCommenterInvert<CR>
 map <leader>c <plug>NERDCommenterToggle<CR>
 
 " Map <F2> to call function list
-map <F2> : Flisttoggle <CR>
+map <F2> :Flisttoggle <CR>
+
+" Map <F3> to call code explorer
+map <F3> :TlistToggle <CR>
 
 " ,v brings up my .vimrc
 " ,V reloads it -- making all changes active (have to save first)
