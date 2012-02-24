@@ -1,0 +1,16 @@
+
+#TO ADD A SUBMODULE
+from top directory
+git submodule add https://github.com/vim-scripts/taglist.vim.git _vim/bundle/taglist 
+
+##this is only necessary for nested submodules
+git submodule init
+git submodule update
+
+
+#TO GET RID OF A SUBMODULE
+1. remove it from .gitmodules
+2. remove entry in .git/config 
+    a) not necessary but tidy
+3. git rm --cached [plugin path] (without trailing /, e.g., git rm --cached _vim/bundle/ack)
+

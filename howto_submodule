@@ -1,3 +1,0 @@
-
-from top directory
-git add submodule https://github.com/vim-scripts/taglist.vim.git _vim/bundle/taglist 

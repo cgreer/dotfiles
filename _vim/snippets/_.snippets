@@ -1,23 +1,58 @@
-# Global snippets
+# Global snippets  
+snippet savefig
+	plt.savefig(imgName, bbox_inches='tight', pad_inches=1)
 
-# (c) holds no legal value ;)
+snippet ps
+	bioLibCG.printSeldomly(${1:}, 5)
+
+# bash loop stuff
+snippet doProcess
+	echo "..${1:process}" \`date\`
+	r="L_V"
+	for i in ?; do ~/exec/qJobX3.sh ~/exec/qDoAll.sh ${r//L_V/${i}}; limitJobs.py 30; done | trackJobs.py
+	echo "..done" \`date\`
+
+
+# tagging
+
+snippet tagit
+	#TAG::${1:tags}::
+
+#file in/out
 snippet parseFile
 	f = open(${1:fN}, 'r')
 	for line in f:
 		ls = line.strip().split('\t')
 		${2:}
-snippet appendDict
-	${1:dict}.setdefault(${2:key}, []).append(${3:value})
-snippet uniqueAppendDict
-	if ${1:val} not in ${2:dict}.setdefault(${3:key}, []): ${4:dic}.append(${5:value})
+	f.close()
+
+snippet opencloser
+	f = open(${1:fnn}, 'r')
+	${2:}
+	f.close()
+snippet openclosew
+	f = open(${1:fnn}, 'w')
+	${2:}
+	f.close()
+
+snippet test
+	blah blah blah
+
+#starters
 snippet ifscript
 	if __name__ == "__main__":
 		import sys
-		bioLibCG.submitArgs(${1:fxn}, sys.argv)
+		if sys.argv[1] == "help":
+			bioLibCG.gd(sys.argv[0])
+		else:
+			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
 snippet sscript
 	import bioLibCG
-	import cgNexusFlat
+	from cgNexus import Nexus
+	import cgDL
 	from cgAutoCast import autocast
+	from cgAutoKeyWord import autokey
+	from bioLibJA import subit
 
 	def ${1:name}(${2:fN}):
 		${3:}
@@ -28,31 +63,47 @@ snippet sscript
 			bioLibCG.gd(sys.argv[0])
 		else:
 			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
+
+#NX saving/loading			
 snippet load
-	${1:DC} = cgNexusFlat.Nexus(${2:fN}, ${3:className})
-	${4:DC}.Fload([''], [rn, tn])
+	${1:NX} = Nexus(${2:fN}, ${3:fFN})
+	${4:NX}.load([''])
 snippet save
 	${1:DC}.save()
-snippet dp
-	print '@ ${1:txt}'
-snippet pFxn
-	def ${1:fxn}(${2:fN}, rn = None, tn = None):
-		
-		${3:DC} = cgNexusFlat.Nexus(${4:fN}, ${5:className})
-		${6:DC}.load([''], [rn, tn])
 
+#dict loading
+snippet colDict
+	cgDL.dictFromColumns(${1:fName}, (${2:}, ${3:}), (${4:'string'}, ${5:'stringList'}))
 
-		
-		${7:DC}.save()
+snippet colList
+	cgDL.listFromColumns(${1:fName}, [${2:columns}], [${3:'int'}])
+	
+#other
+snippet stringList
+	'\t'.join([str(x) for x in ${1: list})
+	${2:}
 
 # for shortcut files or text files in general
 snippet categ
 	##################################
 	## ${1:title}
 	#################################
-snippet subcateg
+snippet sub
 	[---${1:title}---]
+snippet bullet
+	:-${1:title}-:
 snippet note
 	(Note: ${1:note} )
 snippet dir
 	(Dir: ${1:dir} )
+
+#quick table
+snippet quicktable
+	${1:quickT} = cgNexusFlat.quickTable(${2:})
+snippet qE
+	('${1:'attName}', '${2:string}', ${3:'.'}, ${4:1})
+
+#quick python
+snippet la
+	${1:listName}.append(${2:})
+	${3:}
