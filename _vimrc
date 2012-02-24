@@ -1,36 +1,12 @@
 " https://github.com/sontek/dotfiles/
 " ==========================================================
-" Dependencies - Libraries/Applications outside of vim
-" ==========================================================
-" Pep8 - http://pypi.python.org/pypi/pep8
-" Pyflakes
-" Ack
-" Rake & Ruby for command-t
-" nose, django-nose
-
-" ==========================================================
 " Plugins included
 " ==========================================================
 " Pathogen
 "     Better Management of VIM plugins
 "
-" GunDo
-"     Visual Undo in vim with diff's to check the differences
-"
-" Pytest
-"     Runs your Python tests in Vim.
-"
-" Commant-T
-"     Allows easy search and opening of files within a given path
-"
 " Snipmate
 "     Configurable snippets to avoid re-typing common comands
-"
-" PyFlakes
-"     Underlines and displays errors with Python on-the-fly
-"
-" Fugitive
-"    Interface with git from vim
 "
 " Git
 "    Syntax highlighting for git config files
@@ -44,11 +20,6 @@
 " Surround
 "    Allows you to surround text with open/close tags
 "
-" Py.test
-"    Run py.test test's from within vim
-"
-" MakeGreen
-"    Generic test runner that works with nose
 "
 " ==========================================================
 " Shortcuts
@@ -57,62 +28,41 @@ set nocompatible              " Don't be compatible with vi
 let mapleader=","             " change the leader to be a comma vs slash
 
 " Seriously, guys. It's not like :W is bound to anything anyway.
-command! W :w
+" command! W :w
 
-" sudo write this
-cmap W! w !sudo tee % >/dev/null
-
-" my custom fxns for editing history files
-"
-" This replaces all cd and ll lines, and then merges lines with more than one
-" \n into one.  I don't know why I have to use three \n for the second part.
-" the | allows for two commands to be ran at once.
-" command FoldHist %s/\nll .*\n\|\ncd .*\n\|ll\n//g | %s/.\n\n\n*//g
+command! -nargs=* -complete=shellcmd R new | setlocal buftype=nofile bufhidden=hide noswapfile | r !<args>
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
 
-" Run pep8
-let g:pep8_map='<leader>8'
-
-" run py.test's
-nmap <silent><Leader>tf <Esc>:Pytest file<CR>
-nmap <silent><Leader>tc <Esc>:Pytest class<CR>
-nmap <silent><Leader>tm <Esc>:Pytest method<CR>
-nmap <silent><Leader>tn <Esc>:Pytest next<CR>
-nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
-nmap <silent><Leader>te <Esc>:Pytest error<CR>
-
-" Run django tests
-map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
-
 " Map lTab to next buffer 
 map <leader><TAB> :bn<CR>
+map <leader>d :bd<CR>
 
 " Map lnn to toggle lines off
 nmap <leader>nn :set nonumber<CR>
+nmap <leader>n :set number<CR>
 
 "Map lc to comment out ind lines
 map <leader>cc <plug>NERDCommenterInvert<CR>
 map <leader>c <plug>NERDCommenterToggle<CR>
 
-" Map <F2> to call function list
-map <F2> :Flisttoggle <CR>
+" Class Browser
+nmap <F3> :TagbarToggle<CR> 
 
-" Map <F3> to call code explorer
-map <F3> :TlistToggle <CR>
+" Most recently used files
+map <F2> :MRU <CR>
 
 " ,v brings up my .vimrc
 " ,V reloads it -- making all changes active (have to save first)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
 
-" open/close the quickfix window
-" nmap <leader>c :copen<CR>
-" nmap <leader>cc :cclose<CR>
+" ,h brings up my snippets
+map <leader>h :sp ~/.vim/snippets/_.snippets<CR><C-W>_
 
-" for when we forget to use sudo to open/edit a file
-cmap w!! w !sudo tee % >/dev/null
+" Show all current snippets
+nnoremap <leader>g ! ~/.vim/snippets/displaySnips.sh <CR>
 
 " ctrl-jklm  changes to that split
 map <c-j> <c-w>j
@@ -124,22 +74,10 @@ map <c-h> <c-w>h
 "  happen as if in command mode )
 imap <C-W> <C-O><C-W>
 
+"Almost never use but might find useful in future
 " Open NerdTree
-map <leader>n :NERDTreeToggle<CR>
+" map <leader>n :NERDTreeToggle<CR>
 
-" Run command-t file search
-map <leader>f :CommandT<CR>
-" Ack searching
-nmap <leader>a <Esc>:Ack!
-
-" Load the Gundo window
-map <leader>g :GundoToggle<CR>
-
-" Jump to the definition of whatever the cursor is on
-map <leader>j :RopeGotoDefinition<CR>
-
-" Rename whatever the cursor is on (including references to it)
-map <leader>r :RopeRename<CR>
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
@@ -173,11 +111,6 @@ set vb t_vb=
 
 " Ignore these files when completing
 set wildignore+=*.o,*.obj,.git,*.pyc
-set grepprg=ack-grep          " replace the default grep program with ack
-
-" Set working directory
-nnoremap <leader>. :lcd %:p:h<CR>
-
 
 """ Insert completion
 " don't select first item, follow typing in autocomplete
@@ -185,8 +118,6 @@ set completeopt=menuone,longest,preview
 set pumheight=6             " Keep a small completion window
 
 """ Moving Around/Editing
-" set cursorline              " have a line indicate the cursor location
-" set ruler                   " show the cursor position all the time
 set nostartofline           " Avoid moving cursor to BOL when jumping around
 set virtualedit=block       " Let cursor move past the last char in <C-v> mode
 set scrolloff=3             " Keep 3 context lines above and below the cursor
@@ -194,6 +125,8 @@ set backspace=2             " Allow backspacing over autoindent, EOL, and BOL
 set showmatch               " Briefly jump to a paren once it's balanced
 set wrap                  " don't wrap text
 set linebreak               " don't wrap textin the middle of a word
+
+
 set autoindent              " always set autoindenting on
 set smartindent             " use smart indent if there is no indent file
 set tabstop=4               " <tab> inserts 4 spaces 
@@ -206,7 +139,7 @@ set foldmethod=indent       " allow us to fold on indents
 set foldlevel=99            " don't fold by default
 
 " don't outdent hashes
-inoremap # #
+" inoremap # #
 
 " close preview window automatically when we move around
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
@@ -242,46 +175,24 @@ set smarttab                " Handle tabs more intelligently
 set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
-"""" Display
-" if has("gui_running")
-"    colorscheme solarized
-" else
-"    colorscheme torte
-"endif
-
 " colorscheme wombat
 colorscheme blackboard
 
-" Paste from clipboard
-map <leader>p "+gP
-
-" Quit window on <leader>q
-nnoremap <leader>q :q<CR>
-"
 " hide matches on <leader>space
 nnoremap <leader><space> :nohlsearch<cr>
-
-" Custom Buffer Control
-nnoremap <F5> :buffers<CR>:buffer<Space>
-
-" Remove trailing whitespace on <leader>S
-nnoremap <leader>S :%s/\s\+$//<cr>:let @/=''<CR>
 
 " Select the item in the list with enter
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-" ==========================================================
-" Javascript
-" ==========================================================
-au BufRead *.js set makeprg=jslint\ %
-
 " Don't allow snipmate to take over tab
 autocmd VimEnter * ino <c-j> <c-r>=TriggerSnippet()<cr>
+
 " Use tab to scroll through autocomplete menus
 autocmd VimEnter * imap <expr> <Tab> pumvisible() ? "<C-N>" : "<Tab>"
 autocmd VimEnter * imap <expr> <S-Tab> pumvisible() ? "<C-P>" : "<S-Tab>"
 snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
 let g:acp_completeoptPreview=1
+
 
 " ===========================================================
 " FileType specific changes
@@ -295,7 +206,6 @@ autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 so
 au FileType python set omnifunc=pythoncomplete#Complete
 au FileType python setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4 smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 au BufRead *.py set efm=%C\ %.%#,%A\ \ File\ \"%f\"\\,\ line\ %l%.%#,%Z%[%^\ ]%\\@=%m
-" Don't let pyflakes use the quickfix window
-let g:pyflakes_use_quickfix = 0
 
-
+" Tab Stuff for Nexus format file
+autocmd BufRead *.format set noexpandtab
