@@ -48,7 +48,7 @@ map <leader>cc <plug>NERDCommenterInvert<CR>
 map <leader>c <plug>NERDCommenterToggle<CR>
 
 " Class Browser
-nmap <F3> :TagbarToggle<CR> 
+nmap <F3> :TagbarToggle<CR><c-l> 
 
 " Most recently used files
 map <F2> :MRU <CR>
@@ -59,7 +59,7 @@ map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
 
 " ,h brings up my snippets
-map <leader>h :sp ~/.vim/snippets/_.snippets<CR><C-W>_
+map <leader>h :sp ~/.vim/snippets/_.snippets<CR><C-W>
 
 " Show all current snippets
 nnoremap <leader>g ! ~/.vim/snippets/displaySnips.sh <CR>
@@ -162,7 +162,6 @@ set report=0                " : commands always print changed line count.
 set shortmess+=a            " Use [+]/[RO]/[w] for modified/readonly/written.
 set ruler                   " Show some info, even without statuslines.
 set laststatus=2            " Always show statusline, even if only 1 window.
-set statusline=[%l,%v\ %P%M]\ %f\ %r%h%w\ (%{&ff})\ %{fugitive#statusline()}
 
 " displays tabs with :set list & displays when a line runs off-screen
 set listchars=tab:>-,eol:$,trail:-,precedes:<,extends:>
