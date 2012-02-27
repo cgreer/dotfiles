@@ -28,20 +28,32 @@ set nocompatible              " Don't be compatible with vi
 let mapleader=","             " change the leader to be a comma vs slash
 
 " Seriously, guys. It's not like :W is bound to anything anyway.
-" command! W :w
+command! W :w
 
 command! -nargs=* -complete=shellcmd R new | setlocal buftype=nofile bufhidden=hide noswapfile | r !<args>
 
 " Toggle the tasklist
 map <leader>td <Plug>TaskList
 
+" jk as escape
+inoremap jk <Esc>
+
+"toggle paste for pasting from outside 
+set pastetoggle=<F8>
+
+" begin/end of line to H/L
+noremap H ^
+noremap L $
+
+noremap <leader>jj 8j
+noremap <leader>kk 8k
+
 " Map lTab to next buffer 
 map <leader><TAB> :bn<CR>
 map <leader>d :bd<CR>
 
 " Map lnn to toggle lines off
-nmap <leader>nn :set nonumber<CR>
-nmap <leader>n :set number<CR>
+nmap <leader>nn :set number! <CR>
 
 "Map lc to comment out ind lines
 map <leader>cc <plug>NERDCommenterInvert<CR>
@@ -128,7 +140,8 @@ set linebreak               " don't wrap textin the middle of a word
 
 
 set autoindent              " always set autoindenting on
-set smartindent             " use smart indent if there is no indent file
+"set smartindent             " use smart indent if there is no indent file
+set cindent
 set tabstop=4               " <tab> inserts 4 spaces 
 set shiftwidth=4            " but an indent level is 2 spaces wide.
 set softtabstop=4           " <BS> over an autoindent deletes both spaces.
