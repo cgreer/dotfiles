@@ -20,11 +20,10 @@ snippet tagit
 
 #file in/out
 snippet parseFile
-	f = open(${1:fN}, 'r')
-	for line in f:
-		ls = line.strip().split('\t')
-		${2:}
-	f.close()
+	with open(${1:fN}, 'r') as f:
+		for line in f:
+			ls = line.strip().split('\t')
+			${2:}
 
 snippet opencloser
 	f = open(${1:fnn}, 'r')
@@ -46,6 +45,7 @@ snippet ifscript
 			bioLibCG.gd(sys.argv[0])
 		else:
 			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
+
 snippet sscript
 	import bioLibCG
 	from cgNexus import Nexus
@@ -53,16 +53,17 @@ snippet sscript
 	from cgAutoCast import autocast
 	from cgAutoKeyWord import autokey
 	from bioLibJA import subit
+	from cgLog import Logger 
+	logger = Logger(0)
 
 	def ${1:name}(${2:fN}):
 		${3:}
 	
 	if __name__ == "__main__":
 		import sys
-		if sys.argv[1] == "help":
-			bioLibCG.gd(sys.argv[0])
-		else:
-			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
+		assert sys.argv[1] in globals(), "Need name of fxn to run from command line!"
+		fxnToRun = globals()[sys.argv[1]] 
+		fxnToRun(*sys.argv[2:])
 
 #NX saving/loading			
 snippet load
@@ -82,6 +83,9 @@ snippet colList
 snippet stringList
 	'\t'.join([str(x) for x in ${1: list})
 	${2:}
+
+snippet log
+	logger.log(${1:})
 
 # for shortcut files or text files in general
 snippet categ
