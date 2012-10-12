@@ -34,17 +34,6 @@ snippet openclosew
 	${2:}
 	f.close()
 
-snippet test
-	blah blah blah
-
-#starters
-snippet ifscript
-	if __name__ == "__main__":
-		import sys
-		if sys.argv[1] == "help":
-			bioLibCG.gd(sys.argv[0])
-		else:
-			bioLibCG.submitArgs(globals()[sys.argv[1]], sys.argv[1:])
 
 snippet sscript
 	import bioLibCG
@@ -59,6 +48,13 @@ snippet sscript
 	def ${1:name}(${2:fN}):
 		${3:}
 	
+	if __name__ == "__main__":
+		import sys
+		assert sys.argv[1] in globals(), "Need name of fxn to run from command line!"
+		fxnToRun = globals()[sys.argv[1]] 
+		fxnToRun(*sys.argv[2:])
+
+snippet fxnscript
 	if __name__ == "__main__":
 		import sys
 		assert sys.argv[1] in globals(), "Need name of fxn to run from command line!"
@@ -84,8 +80,6 @@ snippet stringList
 	'\t'.join([str(x) for x in ${1: list})
 	${2:}
 
-snippet log
-	logger.log(${1:})
 
 # for shortcut files or text files in general
 snippet categ
@@ -101,13 +95,4 @@ snippet note
 snippet dir
 	(Dir: ${1:dir} )
 
-#quick table
-snippet quicktable
-	${1:quickT} = cgNexusFlat.quickTable(${2:})
-snippet qE
-	('${1:'attName}', '${2:string}', ${3:'.'}, ${4:1})
 
-#quick python
-snippet la
-	${1:listName}.append(${2:})
-	${3:}
