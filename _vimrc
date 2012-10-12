@@ -41,6 +41,17 @@ inoremap jk <Esc>
 "toggle paste for pasting from outside 
 set pastetoggle=<F8>
 
+" ranger test
+fun! RangerChooser()
+   silent !ranger --choosefile=/tmp/chosenfile `[ -z '%' ] && echo -n . || dirname %`
+   if filereadable('/tmp/chosenfile')
+     exec 'edit ' . system('cat /tmp/chosenfile')
+     call system('rm /tmp/chosenfile')
+   endif
+   redraw!
+ endfun
+ map ,r :call RangerChooser()<CR>
+
 " begin/end of line to H/L
 noremap H ^
 noremap L $
