@@ -41,6 +41,17 @@ inoremap jk <Esc>
 "toggle paste for pasting from outside 
 set pastetoggle=<F8>
 
+" ranger test
+fun! RangerChooser()
+   silent !ranger --choosefile=/tmp/chosenfile `[ -z '%' ] && echo -n . || dirname %`
+   if filereadable('/tmp/chosenfile')
+     exec 'edit ' . system('cat /tmp/chosenfile')
+     call system('rm /tmp/chosenfile')
+   endif
+   redraw!
+ endfun
+ map ,r :call RangerChooser()<CR>
+
 " begin/end of line to H/L
 noremap H ^
 noremap L $
@@ -116,6 +127,7 @@ set background=dark           " We are using dark background in vim
 set title                     " show title in console title bar
 set wildmenu                  " Menu completion in command mode on <Tab>
 set wildmode=full             " <Tab> cycles between all matching choices.
+set noswapfile
 
 " don't bell or blink
 set noerrorbells
