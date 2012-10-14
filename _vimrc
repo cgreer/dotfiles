@@ -87,7 +87,9 @@ map <leader>h :sp ~/.vim/snippets/_.snippets<CR><C-W>
 " Show all current snippets
 nnoremap <leader>g ! ~/.vim/snippets/displaySnips.sh <CR>
 
-" ctrl-jklm  changes to that split
+" Thought template
+nnoremap <leader>th ! ~/.vim/snippets/thoughtTemplate.sh <CR><c-j><c-j>
+
 map <c-j> <c-w>j
 map <c-k> <c-w>k
 map <c-l> <c-w>l

@@ -1,9 +1,4 @@
 # Global snippets  
-snippet savefig
-	plt.savefig(imgName, bbox_inches='tight', pad_inches=1)
-
-snippet ps
-	bioLibCG.printSeldomly(${1:}, 5)
 
 # bash loop stuff
 snippet doProcess
@@ -17,6 +12,16 @@ snippet doProcess
 
 snippet tagit
 	#TAG::${1:tags}::
+
+snippet test
+	hello
+	`strftime("%B %d, %Y")`
+
+snippet thought
+	id::`~/Dropbox/projects/id_gen/get_id.py ~/Dropbox/projects/note_tagging/IDS`
+	${1:}
+	timestamp::`date +%F-%M-%S`
+	tags::${2:}
 
 #file in/out
 snippet parseFile
