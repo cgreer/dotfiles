@@ -1,20 +1,8 @@
 # Global snippets  
-snippet savefig
-	plt.savefig(imgName, bbox_inches='tight', pad_inches=1)
-
-snippet ps
-	bioLibCG.printSeldomly(${1:}, 5)
 
 # bash loop stuff
-snippet doProcess
-	echo "..${1:process}" \`date\`
-	r="L_V"
-	for i in ?; do ~/exec/qJobX3.sh ~/exec/qDoAll.sh ${r//L_V/${i}}; limitJobs.py 30; done | trackJobs.py
-	echo "..done" \`date\`
-
 
 # tagging
-
 snippet tagit
 	#TAG::${1:tags}::
 
@@ -34,9 +22,6 @@ snippet openclosew
 	f = open(${1:fnn}, 'w')
 	${2:}
 	f.close()
-
-snippet test
-	blah blah blah
 
 #starters
 snippet ifscript
