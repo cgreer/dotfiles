@@ -1,5 +1,4 @@
 " https://github.com/sontek/dotfiles/
-" ==========================================================
 " Plugins included
 " ==========================================================
 " Pathogen
@@ -89,6 +88,9 @@ nnoremap <leader>g ! ~/.vim/snippets/displaySnips.sh <CR>
 
 " Thought template
 nnoremap <leader>th ! ~/.vim/snippets/thoughtTemplate.sh <CR><c-j><c-j>
+
+" clean wiki link
+nnoremap <leader>cl :s/\.wiki]]/]]/<CR> :s/\.\///<CR>
 
 map <c-j> <c-w>j
 map <c-k> <c-w>k
