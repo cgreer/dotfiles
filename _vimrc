@@ -89,9 +89,6 @@ nnoremap <leader>g ! ~/.vim/snippets/displaySnips.sh <CR>
 " Thought template
 nnoremap <leader>th ! ~/.vim/snippets/thoughtTemplate.sh <CR><c-j><c-j>
 
-" Wiki Stuff // create link, clean link
-nnoremap <leader>wl i[[]]<ESC>hi./
-nnoremap <leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
 
 map <c-j> <c-w>j
 map <c-k> <c-w>k

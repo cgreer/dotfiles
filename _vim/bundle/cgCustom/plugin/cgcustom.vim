@@ -85,6 +85,13 @@ endfunction
 
 " mappings
 
+" using autocomplete link to page, clean link
+nnoremap <leader><leader>wl a[[]]<ESC>hi./
+nnoremap <leader><leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
+
+" add stuff to today's todo list
+nnoremap <leader><leader>tt Vd/TODAY<CR>p
+
 " all recently edited wiki files
 nnoremap ,<F2> :call WikiRecent()<CR>
 
