@@ -84,6 +84,8 @@ function! CGFollowLink()
 endfunction
 
 " mappings
+"
+nnoremap <leader><leader>1 :e Collector\ General.wiki<CR>
 
 " using autocomplete link to page, clean link
 nnoremap <leader><leader>wl a[[]]<ESC>hi./

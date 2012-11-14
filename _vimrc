@@ -62,6 +62,9 @@ noremap <leader>kk 8k
 map <leader><TAB> :bn<CR>
 map <leader>d :bd<CR>
 
+" paste from system clipboard
+nnoremap <leader>p :normal "+p<CR>
+
 " Map lnn to toggle lines off
 nmap <leader>nn :set number! <CR>
 
