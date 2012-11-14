@@ -11,6 +11,7 @@ function! WikiRecent()
 
     " Map <CR> to CGFollowLink in this buffer only
     nnoremap <buffer><CR> :call CGFollowLink()<CR> 
+    nnoremap <buffer>q :q<CR>
 endfunction
 
 " show links 
@@ -18,7 +19,7 @@ function! WikiLinkDepth(depth, dType)
     
     " create a list of recent wikis
     let currentFN = expand("%:t")
-    let cmdString = "python ./depth_links.py show_depth zzz.out \"".currentFN."\" ".a:depth." ".a:dType." > ./depth.wiki"
+    let cmdString = "python ./depth_links.py show_depth linkdb.json \"".currentFN."\" ".a:depth." ".a:dType." > ./depth.wiki"
     echom currentFN
     echom cmdString
    
@@ -30,6 +31,7 @@ function! WikiLinkDepth(depth, dType)
 
     " Map <CR> to CGFollowLink in this buffer only
     nnoremap <buffer><CR> :call CGFollowLink()<CR> 
+    nnoremap <buffer>q :q<CR>
 endfunction
 
 function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
@@ -90,12 +92,14 @@ nnoremap <leader><leader>wl a[[]]<ESC>hi./
 nnoremap <leader><leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
 
 " add stuff to today's todo list
-nnoremap <leader><leader>tt Vd/TODAY<CR>p
+nnoremap <leader><leader>mtt Vd/TODAY<CR>p :nohlsearch<cr>
+nnoremap <leader><leader>ctt Vy/TODAY<CR>p :nohlsearch<cr>
 
 " all recently edited wiki files
-nnoremap ,<F2> :call WikiRecent()<CR>
+nnoremap <leader><F2> :call WikiRecent()<CR>
 
 " depth displays
+nnoremap <leader><leader>u  :call system("./update_wiki_db.sh")<CR>
 nnoremap <leader><leader>d1 :call WikiLinkDepth("1", "centrality")<CR>
 nnoremap <leader><leader>d2 :call WikiLinkDepth("2", "centrality")<CR>
 nnoremap <leader><leader>d3 :call WikiLinkDepth("3", "centrality")<CR>
