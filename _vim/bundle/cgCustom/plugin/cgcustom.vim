@@ -85,11 +85,23 @@ function! CGFollowLink()
     call vimwiki#base#open_link(cmd, lnk)
 endfunction
 
-" mappings
-"
+function! ToCollector()
+    echom "calling collector"
+    execute "normal! `<v`>d" 
+    execute "edit ".fnameescape("Collector\ General.wiki")
+    execute "normal! O"
+    execute "normal! P"
+    execute "b#"
+endfunction 
+
+
+
+" collector general stuff
 nnoremap <leader><leader>1 :e Collector\ General.wiki<CR>
+vnoremap <leader><leader>mc :<c-u>call ToCollector()<CR>
 
 " using autocomplete link to page, clean link
+inoremap <leader><leader>wl [[]]<ESC>hi./
 nnoremap <leader><leader>wl a[[]]<ESC>hi./
 nnoremap <leader><leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
 
