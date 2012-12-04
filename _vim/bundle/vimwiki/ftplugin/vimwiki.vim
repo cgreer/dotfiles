@@ -17,6 +17,11 @@ let b:undo_ftplugin = "setlocal ".
       \ "foldmethod< foldexpr< commentstring< "
 " UNDO }}}
 
+" CHRIS GREER EDIT!!
+
+setlocal tabstop=2
+setlocal shiftwidth=2
+
 " MISC STUFF {{{
 
 setlocal autowriteall
