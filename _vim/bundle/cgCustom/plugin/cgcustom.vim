@@ -1,39 +1,77 @@
 
-" show recently used wiki files in list
-function! WikiRecent()
+" create new window for exploring to occur in
+function! CGWikiExploreWindow()
     
-    " create a list of recent wikis
-    call system("./recent_wiki.sh")
+    " Current file name is needed for depth mode
+    let g:cgwikiFN= expand("%:t")
+    let g:cgwikiCurrentMode="WikiRecentMode"
+    let g:cgwikiCurrentDepth="2"
+    let g:cgwikiCurrentDepthMode="paths"
 
-    " open list in new buffer on bottom
+    " create new window
     belowright 12new
-    edit ./recent.wiki
+   
+    " start in recent mode
+    call CGUpdateWikiMode()
+endfunction 
 
-    " Map <CR> to CGFollowLink in this buffer only
-    nnoremap <buffer><CR> :call CGFollowLink()<CR> 
-    nnoremap <buffer>q :q<CR>
+function! CGUpdateWikiMode()
+    let eCommand= "call " . g:cgwikiCurrentMode . "()"
+    execute eCommand
 endfunction
 
-" show links 
-function! WikiLinkDepth(depth, dType)
+" show recently used wiki files in list
+function! WikiRecentMode()
+
+    " assumes you are currently in the CGWikiExplore Window
+    " create a list of recent wikis
+    call system("./recent_wiki.sh")
+    edit ./recent.wiki
+
+    "re-establish mappings
+    call CGWikiExploreMappings()
+
+endfunction
+
+function! WikiLinkDepthMode()
     
     " create a list of recent wikis
-    let currentFN = expand("%:t")
-    let cmdString = "python ./depth_links.py show_depth linkdb.json \"".currentFN."\" ".a:depth." ".a:dType." > ./depth.wiki"
-    echom currentFN
+    let cmdString = "python ./depth_links.py show_depth linkdb.json \"" . g:cgwikiFN . "\" " . g:cgwikiCurrentDepth . " " . g:cgwikiCurrentDepthMode . " > ./depth.wiki"
     echom cmdString
    
     call system(cmdString)
 
     " open list in new buffer on bottom
-    belowright 12new
     edit ./depth.wiki
 
-    " Map <CR> to CGFollowLink in this buffer only
-    nnoremap <buffer><CR> :call CGFollowLink()<CR> 
-    nnoremap <buffer>q :q<CR>
+    call CGWikiExploreMappings()
+
 endfunction
 
+
+function! CGWikiExploreMappings()
+    
+    "mappings
+    nnoremap <buffer>q :q<CR>
+    nnoremap <buffer><CR> :call CGFollowLink()<CR> 
+
+    " main modes
+    nmap <buffer>d :let g:cgwikiCurrentMode="WikiLinkDepthMode"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>r :let g:cgwikiCurrentMode="WikiRecentMode"<CR>:call CGUpdateWikiMode()<CR>
+
+    " alter variables
+    nmap <buffer>2 :let g:cgwikiCurrentDepth="2"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>3 :let g:cgwikiCurrentDepth="3"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>4 :let g:cgwikiCurrentDepth="4"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>5 :let g:cgwikiCurrentDepth="5"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>6 :let g:cgwikiCurrentDepth="6"<CR>:call CGUpdateWikiMode()<CR>
+    
+    nmap <buffer>p :let g:cgwikiCurrentDepthMode="paths"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>c :let g:cgwikiCurrentDepthMode="centrality"<CR>:call CGUpdateWikiMode()<CR>
+
+
+endfunction
+    
 function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
 
     " grab currently selected text
@@ -45,7 +83,7 @@ function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
     let newPageName = input('New Page Name? (w/out ".wiki" suffix): ', '')
 
     " add link to current page 
-    " tag: if else vim normal insert text
+    " tags: if else vim normal insert text
     if a:addLinkToCurrentPage == "true"
         if a:withHighlight == "true"
             execute "normal! O[[".newPageName.".wiki]]"
@@ -89,15 +127,14 @@ function! ToCollector()
     echom "calling collector"
     execute "normal! `<v`>d" 
     execute "edit ".fnameescape("Collector\ General.wiki")
-    execute "normal! O"
+    execute "normal! 2O"
     execute "normal! P"
     execute "b#"
 endfunction 
 
-
-
 " collector general stuff
 nnoremap <leader><leader>1 :e Collector\ General.wiki<CR>
+nnoremap <leader><leader>2 :e mobile/Collector\ Mobile.wiki<CR>
 vnoremap <leader><leader>mc :<c-u>call ToCollector()<CR>
 
 " using autocomplete link to page, clean link
@@ -109,20 +146,11 @@ nnoremap <leader><leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
 nnoremap <leader><leader>mtt Vd/TODAY<CR>p :nohlsearch<cr>
 nnoremap <leader><leader>ctt Vy/TODAY<CR>p :nohlsearch<cr>
 
-" all recently edited wiki files
-nnoremap <leader><F2> :call WikiRecent()<CR>
+" Load Custom WikiWander Plugin
+nnoremap <leader><F2> :call CGWikiExploreWindow()<CR>
 
 " depth displays
-nnoremap <leader><leader>u  :call system("./update_wiki_db.sh")<CR>
-nnoremap <leader><leader>d1 :call WikiLinkDepth("1", "centrality")<CR>
-nnoremap <leader><leader>d2 :call WikiLinkDepth("2", "centrality")<CR>
-nnoremap <leader><leader>d3 :call WikiLinkDepth("3", "centrality")<CR>
-nnoremap <leader><leader>d4 :call WikiLinkDepth("4", "centrality")<CR>
-nnoremap <leader><leader>d5 :call WikiLinkDepth("5", "centrality")<CR>
-
-nnoremap <leader><leader>p1 :call WikiLinkDepth("1", "paths")<CR>
-nnoremap <leader><leader>p2 :call WikiLinkDepth("2", "paths")<CR>
-nnoremap <leader><leader>p3 :call WikiLinkDepth("3", "paths")<CR>
+nnoremap <leader><leader>u :call system("./update_wiki_db.sh")<CR>
 
 " link highlighted/non-highlighted text to current page and go there
 " lh = link here, le = link elsewhere
