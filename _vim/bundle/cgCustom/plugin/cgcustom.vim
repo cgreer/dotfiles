@@ -95,6 +95,8 @@ function! ToCollector()
 endfunction 
 
 
+" index mapping
+nnoremap <leader><leader>0 :e index.wiki<CR>
 
 " collector general stuff
 nnoremap <leader><leader>1 :e Collector\ General.wiki<CR>
