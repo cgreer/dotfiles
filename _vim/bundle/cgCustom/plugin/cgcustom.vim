@@ -25,8 +25,8 @@ function! WikiRecentMode()
 
     " assumes you are currently in the CGWikiExplore Window
     " create a list of recent wikis
-    call system("./recent_wiki.sh")
-    edit ./recent.wiki
+    call system("./vimsieve/recent_wiki.sh")
+    edit ./vimsieve/recent.wiki
 
     "re-establish mappings
     call CGWikiExploreMappings()
@@ -36,13 +36,13 @@ endfunction
 function! WikiLinkDepthMode()
     
     " create a list of recent wikis
-    let cmdString = "python ./depth_links.py show_depth linkdb.json \"" . g:cgwikiFN . "\" " . g:cgwikiCurrentDepth . " " . g:cgwikiCurrentDepthMode . " > ./depth.wiki"
+    let cmdString = "python ./vimsieve/depth_links.py show_depth ./vimsieve/linkdb.json \"" . g:cgwikiFN . "\" " . g:cgwikiCurrentDepth . " " . g:cgwikiCurrentDepthMode . " > ./vimsieve/depth.wiki"
     echom cmdString
    
     call system(cmdString)
 
     " open list in new buffer on bottom
-    edit ./depth.wiki
+    edit ./vimsieve/depth.wiki
 
     call CGWikiExploreMappings()
 
@@ -153,7 +153,7 @@ nnoremap <leader><leader>ctt Vy/TODAY<CR>p :nohlsearch<cr>
 nnoremap <leader><F2> :call CGWikiExploreWindow()<CR>
 
 " depth displays
-nnoremap <leader><leader>u :call system("./update_wiki_db.sh")<CR>
+nnoremap <leader><leader>u :call system("./vimsieve/update_wiki_db.sh")<CR>
 
 " link highlighted/non-highlighted text to current page and go there
 " lh = link here, le = link elsewhere
