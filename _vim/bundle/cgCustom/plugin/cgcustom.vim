@@ -149,8 +149,11 @@ nnoremap <leader><leader>cl :s/\.wiki]]/]]/g<CR> :s/\.\///g<CR>
 nnoremap <leader><leader>mtt Vd/TODAY<CR>p :nohlsearch<cr>
 nnoremap <leader><leader>ctt Vy/TODAY<CR>p :nohlsearch<cr>
 
-" Load Custom WikiWander Plugin
+" Load Custom Vimsieve Plugin
 nnoremap <leader><F2> :call CGWikiExploreWindow()<CR>
+
+" add tags to end of line
+nnoremap <leader><leader>at $a<SPACE>^^<SPACE>
 
 " depth displays
 nnoremap <leader><leader>u :call system("./vimsieve/update_wiki_db.sh")<CR>
