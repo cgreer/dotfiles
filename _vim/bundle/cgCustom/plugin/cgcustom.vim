@@ -33,6 +33,20 @@ function! WikiRecentMode()
 
 endfunction
 
+" show formatted history of recent files and their line by line additions
+function! WikiHistoryMode()
+
+    " assumes you are currently in the CGWikiExplore Window
+    " create a list of recent wikis
+    " take care of master directory ^^ todo
+    call system("./vimsieve/update_current_history.sh")
+    edit ./vimsieve/current_history.data
+
+    "re-establish mappings
+    call CGWikiExploreMappings()
+
+endfunction
+
 function! WikiLinkDepthMode()
     
     " create a list of recent wikis
@@ -58,6 +72,7 @@ function! CGWikiExploreMappings()
     " main modes
     nmap <buffer>d :let g:cgwikiCurrentMode="WikiLinkDepthMode"<CR>:call CGUpdateWikiMode()<CR>
     nmap <buffer>r :let g:cgwikiCurrentMode="WikiRecentMode"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>h :let g:cgwikiCurrentMode="WikiHistoryMode"<CR>:call CGUpdateWikiMode()<CR>
 
     " alter variables
     nmap <buffer>2 :let g:cgwikiCurrentDepth="2"<CR>:call CGUpdateWikiMode()<CR>
