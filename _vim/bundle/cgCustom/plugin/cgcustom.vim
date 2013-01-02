@@ -1,4 +1,6 @@
 
+let g:vimsieve_home = "/home/chris/Dropbox/wiki"
+
 " create new window for exploring to occur in
 function! CGWikiExploreWindow()
     
@@ -6,7 +8,7 @@ function! CGWikiExploreWindow()
     let g:cgwikiFN= expand("%:t")
     let g:cgwikiCurrentMode="WikiRecentMode"
     let g:cgwikiCurrentDepth="2"
-    let g:cgwikiCurrentDepthMode="paths"
+    let g:cgwikiCurrentDepthMode="centrality"
 
     " create new window
     belowright 12new
@@ -25,11 +27,13 @@ function! WikiRecentMode()
 
     " assumes you are currently in the CGWikiExplore Window
     " create a list of recent wikis
-    call system("./vimsieve/recent_wiki.sh")
-    edit ./vimsieve/recent.wiki
+    " check if this will output the recent to the cwd or not ^^ todo
+    call system(g:vimsieve_home . "/vimsieve/recent_wiki.sh")
+    let eFile = g:vimsieve_home . "/vimsieve/recent.wiki"
+    exe "edit " . eFile
 
     "re-establish mappings
-    call CGWikiExploreMappings()
+    call CGWikiExploreMappings("normal")
 
 endfunction
 
@@ -39,40 +43,56 @@ function! WikiHistoryMode()
     " assumes you are currently in the CGWikiExplore Window
     " create a list of recent wikis
     " take care of master directory ^^ todo
-    call system("./vimsieve/update_current_history.sh")
-    edit ./vimsieve/current_history.data
+    call system(g:vimsieve_home . "/vimsieve/update_current_history.sh")
+    exe "edit " . g:vimsieve_home . "/vimsieve/current_history.data"
 
     "re-establish mappings
-    call CGWikiExploreMappings()
+    call CGWikiExploreMappings("normal")
 
+endfunction
+
+function! WikiTagsMode()
+
+    " assumes you are currently in the CGWikiExplore Window
+    call system(g:vimsieve_home . "/vimsieve/wikiclient.py server_message TAG")
+    exe "edit " . g:vimsieve_home . "/vimsieve/current_tag.data"
+    exe "set ft=linefile"
+
+    "re-establish mappings
+    call CGWikiExploreMappings("tag")
 endfunction
 
 function! WikiLinkDepthMode()
     
     " create a list of recent wikis
-    let cmdString = "python ./vimsieve/depth_links.py show_depth ./vimsieve/linkdb.json \"" . g:cgwikiFN . "\" " . g:cgwikiCurrentDepth . " " . g:cgwikiCurrentDepthMode . " > ./vimsieve/depth.wiki"
+    let cmdString = "python " . g:vimsieve_home . "/vimsieve/depth_links.py show_depth ./vimsieve/linkdb.json \"" . g:cgwikiFN . "\" " . g:cgwikiCurrentDepth . " " . g:cgwikiCurrentDepthMode . " > ./vimsieve/depth.wiki"
     echom cmdString
    
     call system(cmdString)
 
     " open list in new buffer on bottom
-    edit ./vimsieve/depth.wiki
+    exe "edit " . g:vimsieve_home . "/vimsieve/depth.wiki"
 
-    call CGWikiExploreMappings()
+    call CGWikiExploreMappings("normal")
 
 endfunction
 
 
-function! CGWikiExploreMappings()
+function! CGWikiExploreMappings(wikiMode)
     
     "mappings
     nnoremap <buffer>q :q<CR>
-    nnoremap <buffer><CR> :call CGFollowLink()<CR> 
+    if a:wikiMode == "tag"
+        nnoremap <buffer><CR> :call CGFollowTag("true")<CR> 
+    else
+        nnoremap <buffer><CR> :call CGFollowLink("true")<CR> 
+    endif
 
     " main modes
     nmap <buffer>d :let g:cgwikiCurrentMode="WikiLinkDepthMode"<CR>:call CGUpdateWikiMode()<CR>
     nmap <buffer>r :let g:cgwikiCurrentMode="WikiRecentMode"<CR>:call CGUpdateWikiMode()<CR>
     nmap <buffer>h :let g:cgwikiCurrentMode="WikiHistoryMode"<CR>:call CGUpdateWikiMode()<CR>
+    nmap <buffer>t :let g:cgwikiCurrentMode="WikiTagsMode"<CR>:call CGUpdateWikiMode()<CR>
 
     " alter variables
     nmap <buffer>2 :let g:cgwikiCurrentDepth="2"<CR>:call CGUpdateWikiMode()<CR>
@@ -83,7 +103,6 @@ function! CGWikiExploreMappings()
     
     nmap <buffer>p :let g:cgwikiCurrentDepthMode="paths"<CR>:call CGUpdateWikiMode()<CR>
     nmap <buffer>c :let g:cgwikiCurrentDepthMode="centrality"<CR>:call CGUpdateWikiMode()<CR>
-
 
 endfunction
     
@@ -98,7 +117,7 @@ function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
     let newPageName = input('New Page Name? (w/out ".wiki" suffix): ', '')
 
     " add link to current page 
-    " tags: if else vim normal insert text
+    " ^^ if else vim normal insert text
     if a:addLinkToCurrentPage == "true"
         if a:withHighlight == "true"
             execute "normal! O[[".newPageName.".wiki]]"
@@ -108,6 +127,7 @@ function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
     endif
     
     "" edit (open) the new page
+    " make this work from any cwd ^^ todo
     execute "edit " . fnameescape(newPageName) . ".wiki"
 
     "" paste text into document
@@ -120,27 +140,65 @@ endfunction
 
 " follow link using vimwiki's custom parsing and follow function
 " I wrapped it in here to be able to close the WikiRecent window first
-function! CGFollowLink()
+function! CGFollowLink(withClose)
   
-    echom "calling cgfollow"
     " get link under cursor before you close the window
+    " This just gives you whatever is inside the double bracket enclosure
+    " So if an entire directory is there with a non-acceptble ending, you
+    " still get it
+    " ie [[/u/home/hello world.sh]] will give you "/u/home/hello world.sh"
     let lnk = matchstr(vimwiki#base#matchstr_at_cursor(g:vimwiki_rxWikiLink),
           \ g:vimwiki_rxWikiLinkMatchUrl)
     echom lnk
 
     " close the current recent window
-    silent! close
+    if a:withClose == "true"
+        silent! close
+    endif
 
-    " construct arguments for following
-    let cmd = ":e "
+    " call vimwiki#base#open_link(cmd, lnk)
+    " Might want to make a directory first
+    " if vimwiki#base#mkdir(dir, 1)
+    
+    " if the name + .wiki exists, it is in the "base" directory so open it
+    let potBaseName = g:vimsieve_home . "/" . lnk . ".wiki"
+    if filereadable(potBaseName)
+        execute ":e " . fnameescape(potBaseName)
+        return 1
+    endif
 
-    " call it
-    call vimwiki#base#open_link(cmd, lnk)
+    " just bluntly open the file
+    " Note: if it is a jpg or non-vim file it will error out I suppose
+    execute ":e " . fnameescape(lnk)
+
+endfunction
+
+function! CGFollowTag(withClose)
+ 
+    let currentLine = getline('.')
+    echom currentLine
+    let lineSplit = split(currentLine, '-->')
+    echom "this is the split" . lineSplit[0]
+    let tagFN = lineSplit[1]
+    let tagLineNum = lineSplit[2]
+    echom "This is the split vars" . tagFN . "...." . tagLineNum
+
+    " close the current recent window
+    if a:withClose == "true"
+        silent! close
+    endif
+
+    " just bluntly open the file
+    " Note: if it is a jpg or non-vim file it will error out I suppose
+    " open on specific line ^^ vim open file edit line number
+    execute "edit +" . tagLineNum . " " . fnameescape(tagFN)
+
 endfunction
 
 function! ToCollector()
     echom "calling collector"
     execute "normal! `<v`>d" 
+    " make this work cwd ^^ todo
     execute "edit ".fnameescape("Collector\ General.wiki")
     execute "normal! 2O"
     execute "normal! P"
@@ -148,11 +206,11 @@ function! ToCollector()
 endfunction 
 
 " index mapping
-nnoremap <leader><leader>0 :e index.wiki<CR>
+nnoremap <leader><leader>0 :exe "edit " . g:vimsieve_home . "/index.wiki"<CR>
 
 " collector general stuff
-nnoremap <leader><leader>1 :e Collector\ General.wiki<CR>
-nnoremap <leader><leader>2 :e mobile/Collector\ Mobile.wiki<CR>
+nnoremap <leader><leader>1 :exe "edit " . g:vimsieve_home . fnameescape("/Collector\ General.wiki")<CR>
+nnoremap <leader><leader>2 :exe "edit " . g:vimsieve_home . fnameescape("/mobile/Collector\ Mobile.wiki")<CR>
 vnoremap <leader><leader>mc :<c-u>call ToCollector()<CR>
 
 " using autocomplete link to page, clean link
@@ -180,3 +238,6 @@ vnoremap <leader><leader>lh :<c-u>call CGWikiNewPage('true', 'true')<CR>
 vnoremap <leader><leader>le :<c-u>call CGWikiNewPage('true', 'false')<CR>
 nnoremap <leader><leader>lh :call CGWikiNewPage('false', 'true')<CR>
 nnoremap <leader><leader>le :call CGWikiNewPage('false', 'false')<CR>
+
+" always use my goto commmand, need to fix overlap mapping ^^ todo
+nnoremap <CR> :call CGFollowLink("false")<CR>

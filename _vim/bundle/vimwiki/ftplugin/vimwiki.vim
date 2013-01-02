@@ -268,11 +268,13 @@ endif
 nnoremap <script><buffer>
       \ <Plug>Vimwiki2HTMLBrowse :Vimwiki2HTMLBrowse<CR>
 
-if !hasmapto('<Plug>VimwikiFollowLink')
-  nmap <silent><buffer> <CR> <Plug>VimwikiFollowLink
-endif
-nnoremap <silent><script><buffer>
-      \ <Plug>VimwikiFollowLink :VimwikiFollowLink<CR>
+" TODO FIX THE MAPPING OVERLAP WITH MY SCRIPT ^^ todo
+"
+"if !hasmapto('<Plug>VimwikiFollowLink')
+  "nmap <silent><buffer> <CR> <Plug>VimwikiFollowLink
+"endif
+"nnoremap <silent><script><buffer>
+      "\ <Plug>VimwikiFollowLink :VimwikiFollowLink<CR>
 
 if !hasmapto('<Plug>VimwikiSplitLink')
   nmap <silent><buffer> <S-CR> <Plug>VimwikiSplitLink
