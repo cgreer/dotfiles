@@ -5,10 +5,12 @@ let g:vimsieve_home = "/home/chris/Dropbox/wiki"
 function! CGWikiExploreWindow()
     
     " Current file name is needed for depth mode
-    let g:cgwikiFN= expand("%:t")
+    let g:cgwikiFN= expand("%:p")
+    echom "CURRENT FILE " . g:cgwikiFN
     let g:cgwikiCurrentMode="WikiRecentMode"
     let g:cgwikiCurrentDepth="2"
     let g:cgwikiCurrentDepthMode="centrality"
+    let g:cgwikiCurrentTagDepth="2"
 
     " create new window
     belowright 12new
@@ -53,8 +55,14 @@ endfunction
 
 function! WikiTagsMode()
 
+    " set up filename stuff
+    let currentFN = "fn::[[" . g:cgwikiFN . "]]"
+    let serverMessage = "type::TAG\tdepth::" . g:cgwikiCurrentTagDepth . "\t" . currentFN
+
+    echom "SENDING SERVER MESSAGE" . serverMessage
+
     " assumes you are currently in the CGWikiExplore Window
-    call system(g:vimsieve_home . "/vimsieve/wikiclient.py server_message TAG")
+    echom system(g:vimsieve_home . "/vimsieve/wikiclient.py server_message " . shellescape(serverMessage))
     exe "edit " . g:vimsieve_home . "/vimsieve/current_tag.data"
     exe "set ft=linefile"
 
