@@ -213,8 +213,16 @@ function! ToCollector()
     execute "b#"
 endfunction 
 
+function! NewSubPage()
+    let subName = input('Sub Section Name? (w/out ".wiki" suffix): ', '')
+    let newPageName = "[[" . expand("%:p:r") . " - " . subName . ".wiki]]"
+    execute "normal! i". newPageName
+    echom newPageName
+endfunction
+
 " index mapping
 nnoremap <leader><leader>0 :exe "edit " . g:vimsieve_home . "/index.wiki"<CR>
+nnoremap <leader><leader>sub :call NewSubPage()<CR>
 
 " collector general stuff
 nnoremap <leader><leader>1 :exe "edit " . g:vimsieve_home . fnameescape("/Collector\ General.wiki")<CR>
