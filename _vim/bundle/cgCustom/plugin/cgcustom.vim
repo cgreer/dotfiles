@@ -19,6 +19,7 @@ function! CGWikiExploreWindow()
     call CGUpdateWikiMode()
 endfunction 
 
+
 function! CGUpdateWikiMode()
     let eCommand= "call " . g:cgwikiCurrentMode . "()"
     execute eCommand
@@ -142,9 +143,21 @@ function! CGWikiNewPage(withHighlight, addLinkToCurrentPage)
     if a:withHighlight == "true"
         execute "normal! p"
     endif
-    
 endfunction
 
+function! MoveUpOneLine()
+    let lineToMoveBelow = line(".") - 2
+    let exString = line(".") . "m" . lineToMoveBelow
+    execute exString 
+    execute "normal! h"
+endfunction
+
+function! MoveDownOneLine()
+    let lineToMoveBelow = line(".") + 1
+    let exString = line(".") . "m" . lineToMoveBelow
+    execute exString 
+    execute "normal! h"
+endfunction
 
 " follow link using vimwiki's custom parsing and follow function
 " I wrapped it in here to be able to close the WikiRecent window first
@@ -213,6 +226,19 @@ function! ToCollector()
     execute "b#"
 endfunction 
 
+function! MakeLineFC()
+    echom "calling FC Maker"
+    " how to add spaces and escapes in macro call ^^ vimscript vim
+    execute "normal! ^i%FF\ \<esc>f-a\ %FB\<esc>$a\ %FE" 
+endfunction 
+
+function! ToPList()
+    " select visually select ^^ vim script select 
+    execute "normal! `<v`>d" 
+    execute "4"
+    execute "normal! p"
+endfunction 
+
 function! NewSubPage()
     let subName = input('Sub Section Name? (w/out ".wiki" suffix): ', '')
     let newPageName = "[[" . expand("%:p:r") . " - " . subName . ".wiki]]"
@@ -227,6 +253,8 @@ nnoremap <leader><leader>sub :call NewSubPage()<CR>
 " collector general stuff
 nnoremap <leader><leader>1 :exe "edit " . g:vimsieve_home . fnameescape("/Collector\ General.wiki")<CR>
 nnoremap <leader><leader>2 :exe "edit " . g:vimsieve_home . fnameescape("/mobile/Collector\ Mobile.wiki")<CR>
+nnoremap <leader><leader>3 :exe "edit " . g:vimsieve_home . fnameescape("/Todo\ Day.wiki")<CR>
+nnoremap <leader><leader>4 :exe "edit " . g:vimsieve_home . fnameescape("/IDG\ Tracking.wiki")<CR>
 vnoremap <leader><leader>mc :<c-u>call ToCollector()<CR>
 
 " using autocomplete link to page, clean link
@@ -242,7 +270,14 @@ nnoremap <leader><leader>ctt Vy/TODAY<CR>p :nohlsearch<cr>
 nnoremap <leader><F2> :call CGWikiExploreWindow()<CR>
 
 " add tags to end of line
-nnoremap <leader><leader>at $a<SPACE>^^<SPACE>
+nnoremap <leader><leader>at $a<SPACE>@<SPACE>
+
+" convert line into a flashcard
+nnoremap <leader>f :call MakeLineFC()<CR> 
+
+" convert line into a flashcard
+nnoremap <RIGHT> :call MoveDownOneLine()<CR> 
+nnoremap <LEFT> :call MoveUpOneLine()<CR> 
 
 " depth displays
 nnoremap <leader><leader>u :call system("./vimsieve/update_wiki_db.sh")<CR>
@@ -254,6 +289,9 @@ vnoremap <leader><leader>lh :<c-u>call CGWikiNewPage('true', 'true')<CR>
 vnoremap <leader><leader>le :<c-u>call CGWikiNewPage('true', 'false')<CR>
 nnoremap <leader><leader>lh :call CGWikiNewPage('false', 'true')<CR>
 nnoremap <leader><leader>le :call CGWikiNewPage('false', 'false')<CR>
+
+" move to priority list
+vnoremap <leader><leader>9 :call ToPList()<CR>
 
 " always use my goto commmand, need to fix overlap mapping ^^ todo
 nnoremap <CR> :call CGFollowLink("false")<CR>

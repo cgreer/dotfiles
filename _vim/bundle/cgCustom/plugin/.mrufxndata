@@ -1,0 +1,1110 @@
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	4	21
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	4	35
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	5	17
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	5	6
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	5	18
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	4	30
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	4	33
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	4	1
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	20	10
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	19	1
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	23	91
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	144	17
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	21	4
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	19	8
+def __init__(self, ctagsLine = None, jsonLine = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	40	8
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	1
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	67	29
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	32
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	70	8
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	19
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	8
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	27
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	35
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	32
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	19
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	74	20
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	74	24
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	164	5
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	165	5
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	60	49
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	60	50
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	77	21
+def truncate_regex(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	74	21
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	60	39
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	61	32
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	61	21
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	61	30
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	32
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	40
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	63	40
+def check_existence(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	90
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	163	8
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	162	4
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	163	8
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/collect.py	5	13
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/collect.py	5	26
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/collect.py	2	8
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/collect.py	2	7
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/collect.py	3	9
+def log_tag_info(srcFile, lineNum, colNum, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	120	58
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	116	1
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	118	65
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	65
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	4
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	14
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	14
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	14
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	59
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	122	17
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	13
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	124	35
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	127	20
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	127	30
+def log_tag_info(srcFile, lineNum, colNum, logFile, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	127	59
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	73
+def log_tag_info(srcFile, lineNum, colNum, fileExtension):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	118	43
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	118	65
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	121	61
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	114	40
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	38
+def tagify_file(self, fileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	27	71
+def tagify_file(self, fileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	28	77
+def tagify_file(self, fileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	29	66
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	123	60
+def from_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	112	39
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	124	1
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	123	61
+def get_unique_tags(tags):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	172	45
+def get_unique_tags(tags):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	173	1
+def get_unique_tags(tags):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	186	24
+def get_unique_tags(tags):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	186	51
+def get_unique_tags(tags):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	188	1
+def update_log(logFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	154	34
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	203	42
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	206	26
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	204	21
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	202	39
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	202	39
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	205	52
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	205	73
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	205	68
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	205	67
+def get_mru_fxn_list(mrufxndata):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	255	33
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	202	1
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	201	1
+def text_has_tags(text, tags):	/home/chris/dotfiles/_vim/bundle/collecttags/plugin/collect.py	6	49
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	13	35
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	35
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	26
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	47
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	123	48
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	27
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	13	30
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	123	32
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	17
+def tagify_file(self, fileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	29	48
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	226	22
+def generate_mru_browser_text():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	227	45
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	200	41
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	203	36
+def update_log(logFN, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	152	31
+def update_log(logFN, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	165	64
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	60	39
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	1
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	37
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	63	56
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	62	30
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	65	22
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	66	39
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	67	39
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	65	66
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	25
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	16	1
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	15	20
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	16	1
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	14	41
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	35
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	33
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	12
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	13
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	22
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	20
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	30
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	66	7
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	17
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	17
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	39
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	17
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	18
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	67	16
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	26
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	23
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	27
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	31
+def __init__(self, srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	23	36
+def __init__(self, ctagsLine = None, jsonLine = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	48	29
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	1
+def nothing():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	8
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	1
+def not():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	8
+def functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/menus.py	3	8
+def by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/menus.py	6	8
+def functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/menus.py	3	8
+def functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	224	21
+def functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	223	4
+def menu_functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	221	23
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	220	25
+def menu_by_file(choice = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	32
+def menu_by_file(choice = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	241	1
+def create_expand_menu(choice = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	22
+def create_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	23
+def create_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	240	1
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	18
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	241	1
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	243	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	4
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	4
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	54
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	28
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	248	6
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	6
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	241	6
+def menu_functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	225	6
+def generate_mru_browser_text(cBufferName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	217	6
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	248	19
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	249	23
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	250	1
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	249	1
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	7	18
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	248	44
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	246	48
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	249	60
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	251	30
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	252	19
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	253	12
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	3	37
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	253	14
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	253	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	254	56
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	266	25
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	267	36
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	3	2
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	3	1
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	135	11
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	135	30
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	150	14
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	150	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	243	4
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	243	31
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	256	8
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	256	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	255	31
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	255	38
+def menu_functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	240	1
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	67	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	12
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	21
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	35
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	13
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	22
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	37
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	14
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	14
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	14
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	23
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	39
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	39
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	39
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	39
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	15
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	15
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	15
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	24
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	41
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	41
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	41
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	41
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	71	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	16
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	16
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	68	16
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	25
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	43
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	43
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	43
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	172
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	172
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	172
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	51
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	51
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	51
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	74
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	74
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	74
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	106
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	106
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	106
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	136
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	136
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	136
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	136
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	173
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	173
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	173
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	52
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	52
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	52
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	76
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	76
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	76
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	109
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	109
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	109
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	140
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	140
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	140
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	140
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	178
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	178
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	178
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	53
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	53
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	53
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	78
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	78
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	78
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	112
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	112
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	112
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	144
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	144
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	144
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	144
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	183
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	183
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	183
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	54
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	54
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	54
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	80
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	80
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	80
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	115
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	115
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	115
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	148
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	148
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	148
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	148
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	188
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	188
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	188
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	55
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	55
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	55
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	82
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	82
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	82
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	118
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	118
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	118
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	152
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	152
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	73	152
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	74	22
+def menu_functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	242	24
+def menu_functions_only():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	242	48
+def function_choice_output(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	69	8
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	52
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	262	52
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	18
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	262	17
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	25
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	266	33
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	267	32
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	269	1
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	268	25
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	270	1
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	270	46
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	260	23
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	271	16
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	271	38
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	36
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	268	20
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	20
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	28
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	56
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	274	8
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	274	26
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	275	1
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	269	13
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	269	28
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	277	31
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	278	1
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	277	31
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	8
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	279	17
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	267	32
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	279	32
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	279	41
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	281	17
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	283	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	282	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	283	12
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	283	40
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	284	4
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	259	17
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	52
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	262	39
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	263	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	263	98
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	261	59
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	66
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	266	19
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	263	59
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	263	59
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	267	19
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	288	15
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	288	16
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	290	29
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	291	23
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	18
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	12
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	1
+def menu_lines(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	279	25
+def menu_lines(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	40
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	275	40
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	275	37
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	288	39
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	1
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	274	1
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	26
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	26
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	20
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	277	28
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	21
+def self.is_expandable(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	286	33
+def self.is_expandable(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	8
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	286	37
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	60
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	288	23
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	15
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	64
+def self.is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	63
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	276	40
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	73
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	286	50
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	1
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	284	22
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	19
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	286	41
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	17
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	290	26
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	291	32
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	21
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	290	32
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	27
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	28
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	21
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	282	41
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	288	20
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	290	8
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	27
+def __init__(self, menuText):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	43
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	284	33
+def output_menu(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	34
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	259	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	264	33
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	265	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	265	32
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	310	58
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	22
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	311	41
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	311	47
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	227	54
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	227	54
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	232	27
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	232	27
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	234	32
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	1
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	14
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	36
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	1
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	1
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	19
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	8
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	310	82
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	310	59
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	229	5
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	8
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	41
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	237	29
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	232	21
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	234	23
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	234	23
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	313	34
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	313	34
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	1
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	50
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	235	45
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	36
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	282	31
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	287	42
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	283	1
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	35
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	24
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	31
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	66
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	42
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	295	49
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	240	1
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	237	37
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	291	31
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	294	38
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	268	84
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	268	86
+def __init__(self, menuText, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	274	47
+def __init__(self, menuText, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	277	1
+def __init__(self, menuText, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	276	44
+def write_state_to_file(fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	35
+def write_state_to_file(fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	1
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	26
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	302	26
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	302	42
+def from_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	24
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	17	51
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	240	19
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	32
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	16
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	238	32
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	32
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	240	17
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	241	1
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	245	14
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	307	1
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	7
+def _to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	308	9
+def _from_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	316	9
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	8
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	8
+def from_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	8
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	307	1
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	306	36
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	308	18
+def from_json(self, jsonLine):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	318	32
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	309	1
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	308	35
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	309	40
+def load_from_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	311	4
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	311	34
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	312	1
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	19
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	37
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	25
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	20
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	35
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	236	22
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	246	24
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	246	33
+def save_to_file(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	27
+def handle_menu_change(options):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	32
+def handle_menu_change(options):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	32
+def handle_expand_change(options):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	17
+def handle_expand_choice(options):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	24
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	280	31
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	281	1
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	282	4
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	38
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	40
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	282	23
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	283	36
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	284	41
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	315	1
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	1
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	313	46
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	34
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	12
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	35
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	11
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	11
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	35
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	315	53
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	315	59
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	316	52
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	317	27
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	318	48
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	319	29
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	320	63
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	321	13
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	322	71
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	366	25
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	368	20
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	368	33
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	31
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	45
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	244	34
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	28
+def from_json(self, jsonLine):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	345	34
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	319	68
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	316	20
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	316	26
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	316	33
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	319	32
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	322	32
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	317	28
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	322	25
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	324	43
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	323	29
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	323	32
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	11
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	30
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	272	43
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	41
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	25
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	40
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	38
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	22
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	23
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	24
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	28
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	27
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	39
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	43
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	22
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	22
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	22
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	23
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	22
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	20
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	23
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	25
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	21
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	273	25
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	26
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	25
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	260	59
+def create_by_file_expand_menu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	260	62
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	1
+def create_menu_text(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	295	31
+def create_menu_text(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	8
+def create_menu_text(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	8
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	295	40
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	297	39
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	1
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	35
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	35
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	35
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	35
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	38
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	39
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	39
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	39
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	39
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	40
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	40
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	40
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	40
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	41
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	41
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	41
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	41
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	27
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	27
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	27
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	28
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	28
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	28
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	43
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	43
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	43
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	43
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	29
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	29
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	303	29
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	44
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	44
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	44
+def __init__(self, menuText = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	24
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	291	32
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	33
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	295	25
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	22
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	294	26
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	297	39
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	292	34
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	25
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	297	34
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	44
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	44
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	340	33
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	340	33
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	340	33
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	340	58
+def is_expandable(self, text):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	340	58
+def create_by_file_expand_lines():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	259	31
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	365	11
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	365	40
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	366	29
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	368	34
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	33
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	366	16
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	366	10
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	366	17
+def create_by_file_expand_lines():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	271	23
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	289	17
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	368	6
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	370	24
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	370	10
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	370	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	9
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	10
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	11
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	12
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	13
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	14
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	17
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	18
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	23
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	20
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	24
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	21
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	25
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	296	22
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	298	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	26
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	26
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	24
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	21
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	21
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	16
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	15
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	367	31
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	49
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	48
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	54
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	55
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	55
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	310	20
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	314	33
+def output_menu(self, fName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	315	32
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	26
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	26
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	326	58
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	326	54
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	326	35
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	326	49
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	325	1
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	327	28
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	330	35
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	331	40
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	332	12
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	333	40
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	285	25
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	332	13
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	365	28
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	365	16
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	19
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	371	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	372	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	369	23
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	372	15
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	375	15
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	376	24
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	377	36
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	379	21
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	380	33
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	382	14
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	383	34
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	380	26
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	380	33
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	328	30
+def handle_expansion_change(self, choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	328	38
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	376	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	375	15
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	387	4
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	388	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	390	35
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	375	27
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	380	4
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	384	40
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	385	38
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	243	42
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	243	13
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	244	32
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	244	44
+def menu_by_file():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	241	16
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	37
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	15
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	19
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	36
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	53
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	300	53
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	33
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	29
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	30
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	47
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	63
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	66
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	60
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	43
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	44
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	301	42
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	299	43
+def from_json(self, jsonLine):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/menus.py	82	1
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	17
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	17
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	33
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	7
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	17
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	290	23
+def generate_mru_browser_text(cBufferName, browserMode):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	239	42
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	11	33
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	1	8
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	2	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	1	9
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	2	1
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	2	11
+def test_emenu():	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	3	1
+def create_menu_text(self, menuLines):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	15	23
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	277	24
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	276	4
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	276	1
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	276	1
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	21	4
+def to_json(self):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	72	48
+def load_config(self):	/home/chris/Dropbox/wiki/vimsieve/CGConfig.py	9	47
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	3	1
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	1	17
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	2	11
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	3	1
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	3	9
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	128	30
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	24
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	12	29
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/dlog.py	2	1
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/dlog.py	1	1
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/dlog.py	1	12
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	5	24
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	13	24
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/dlogger.py	4	1
+def dlog(outString):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/dlogger.py	1	9
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	4	9
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	63	41
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	64	36
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	64	20
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	64	31
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	64	41
+def test_tagify(srcFileName):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	7	1
+def check_existence(self, cBufferFN):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/tags.py	66	39
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	23	58
+def log_tag_info(srcFile, lineNum, colNum, fileExtension, logFile):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	23	58
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	55
+def handle_expand_choice(choice):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/recentfxn.py	18	51
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	7	38
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	7	41
+def __init__(self, menuLines = None, options = None):	/home/chris/dotfiles/_vim/bundle/mrufunction/plugin/expandmenu.py	7	28

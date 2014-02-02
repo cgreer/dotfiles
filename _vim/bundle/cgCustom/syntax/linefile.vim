@@ -10,3 +10,8 @@ highlight CGTT cterm=italic gui=italic ctermfg=darkyellow guifg=darkyellow
 syntax match vimsieveTagLineThree "++.*$"
 highlight link vimsieveTagLineThree CGTTT
 highlight CGTTT cterm=italic gui=italic ctermfg=red guifg=red
+
+syn match cgAnnotation 'hello' conceal contained conceal cchar=←
+
+highlight link cgAnnotation CGA
+highlight CGA cterm=italic gui=italic ctermfg=red guifg=red

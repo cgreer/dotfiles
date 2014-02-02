@@ -1,0 +1,88 @@
+
+fixing the sort problem @frequent-function @bug
+send to log
+log ...
+  get nearest tag of temp file saved in vim
+  rename tag
+  append to END of log
+mru fxn
+  load tags
+    new on bottom (nob)
+  get unique ones 
+    list -> is (not)
+.
+SOLVED
+  uniqing the tags was popping and appending, which reversed the list
+
+function checking won't check the file being edited @frequent-function @bug
+  open file
+  delete function
+  DONT SAVE
+  open mru browser
+    function will STILL be there
+
+make python3 compliant @frequent-function @bug
+  look at ggplot
+  I think a lot of it has to do with importing future and changing prints
+make os portable @frequent-function @bug
+sorting wrong @frequent-function @bug @closed
+Don't re-open file if you are on the same file @frequent-function @bug @closed
+
+Display @frequent-function 
+  file.py
+    fxn1
+    fxn2
+    ..go to file.py
+  file2.py
+    fxnA
+    fxnB
+    ..go to file.py
+
+bug: <sfile> doesn't capture path of file @frequent-function @bug 
+  FIXED: accidentally re-named the same global variable
+
+regex will have tabs in it @frequent-function @bug
+absolute file name for vim files? @frequent-function @bug
+
+tag wrong tag bug @frequent-function @bug @closed
+  Need to send the "modified" version of the file to be tagified
+
+@frequent-function
+bypass calling python process everytime log location
+  just have vim save hash, file, loc in log
+  when you call recent browser
+    python will process all tags and create list
+  PROBLEM
+    files could have changed at the time you call process
+      how to handle that?
+
+Get Nearby Tag function @frequent-function
+  ctags the source file 
+    Call ctags
+    load into objects
+      file
+        lines
+          type
+          prototype
+          lineNumber
+          regex
+          tagName
+    "walk" backwards through source file and find line with tag in it
+    tagify src file
+
+Tagbar doesn't handle nested functions @frequent-function
+
+fix "pattern not found" bug in frequent-function @frequent-function @wtodo
+
+better function for finding python function name given line @frequent-function
+  http://doughellmann.com/2009/06/pymotw-pyclbr.html
+
+vim previous function @vim @frequent-function
+  when insert/etc write fxn, fileLine to a .linemoves file
+    Use autocommand to execute function that collections info
+      InsertEnter is au event
+    need fxn to get current fxn name @wtodo @frequent-function
+      set mark
+        ma
+        %FF set a mark in vim - %FB ma; where "a" is character mark will be under %FE
+

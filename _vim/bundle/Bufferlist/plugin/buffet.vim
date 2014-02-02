@@ -172,7 +172,6 @@ function! s:close()
 		unlet t:tlistbuf
 		let s:lineonclose = line('.')
 		:bdelete buflisttempbuffer412393
-		echo ''
 		exe s:sourcewindow. ' wincmd w'
 	endif
 endfunction

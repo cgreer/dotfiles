@@ -9,6 +9,29 @@ if version < 600
 elseif exists("b:current_syntax")
   finish
 endif
+
+
+
+"  Line indent colors
+syntax match oi "\v^(  )\w.*$"
+highlight link oi OINDENT 
+highlight OINDENT ctermfg=blue guifg=blue
+
+syntax match ooi "\v^(    )\w.*$"
+highlight link ooi OOINDENT 
+highlight OOINDENT ctermfg=green guifg=green
+
+syntax match oooi "\v^(      )\w.*$"
+highlight link oooi OOOINDENT 
+highlight OOOINDENT ctermfg=red guifg=yellow
+
+syntax match ooooi "\v^(        )\w.*$"
+highlight link ooooi OOOOINDENT 
+highlight OOOOINDENT ctermfg=gray guifg=gray
+
+
+
+
 "TODO do nothing if ...? (?)
 let starttime = reltime()  " start the clock
 if VimwikiGet('maxhi')

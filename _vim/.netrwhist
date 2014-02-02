@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/chrisgre/test'
-let g:netrw_dirhist_2='/home/chrisgre/scripts/endoClip/miRandaTest'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/chris/Dropbox/projects/learning_django/mysite/polls/templates'
+let g:netrw_dirhist_2='/home/chris/Dropbox/projects/learning_django/mysite/polls'
+let g:netrw_dirhist_3='/home/chris/Dropbox/projects/learning_django/mysite/polls/static'
+let g:netrw_dirhist_4='/home/chris/Dropbox/projects/learning_django/mysite/polls/static/polls'
+let g:netrw_dirhist_5='/home/chris/Dropbox/projects/learning_django/mysite/polls/static'
